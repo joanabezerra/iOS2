@@ -14,6 +14,7 @@
 		AC71EA102273C19400EA5779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC71EA0E2273C19400EA5779 /* LaunchScreen.storyboard */; };
 		AC71EA1B2273C19500EA5779 /* VideoGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71EA1A2273C19500EA5779 /* VideoGameTests.swift */; };
 		AC71EA262273C19500EA5779 /* VideoGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71EA252273C19500EA5779 /* VideoGameUITests.swift */; };
+		AC71EA362273C3C900EA5779 /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC71EA352273C3C900EA5779 /* GamesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC71EA212273C19500EA5779 /* VideoGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC71EA252273C19500EA5779 /* VideoGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGameUITests.swift; sourceTree = "<group>"; };
 		AC71EA272273C19500EA5779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC71EA352273C3C900EA5779 /* GamesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AC71EA052273C19200EA5779 /* AppDelegate.swift */,
 				AC71EA072273C19200EA5779 /* ViewController.swift */,
 				AC71EA092273C19200EA5779 /* Main.storyboard */,
+				AC71EA352273C3C900EA5779 /* GamesTableViewController.swift */,
 				AC71EA0C2273C19400EA5779 /* Assets.xcassets */,
 				AC71EA0E2273C19400EA5779 /* LaunchScreen.storyboard */,
 				AC71EA112273C19400EA5779 /* Info.plist */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC71EA082273C19200EA5779 /* ViewController.swift in Sources */,
+				AC71EA362273C3C900EA5779 /* GamesTableViewController.swift in Sources */,
 				AC71EA062273C19200EA5779 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
